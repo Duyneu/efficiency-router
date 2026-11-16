@@ -1,0 +1,11 @@
+{
+  "name": "what-if-studio",
+  "owner": { "name": "Nguyen Huu Duy" },
+  "plugins": [
+    {
+      "name": "what-if-router",
+      "source": "./what-if-router",
+      "description": "Routes each What If video stage to Haiku/Sonnet/Opus, verifies, escalates, logs."
+    }
+  ]
+}
