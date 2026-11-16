@@ -32,14 +32,14 @@ One-step tasks skip routing.
 Requires [Claude Code](https://claude.com/claude-code).
 
 ```bash
-claude plugin marketplace add Duyneu/what-if-studio
+claude plugin marketplace add Duyneu/efficiency-router
 ```
 
 ```bash
-claude plugin install efficiency-router@what-if-studio
+claude plugin install efficiency-router@efficiency-router
 ```
 
-Restart Claude Code afterwards. (The marketplace repo is named `what-if-studio`; the plugin inside it is `efficiency-router`.)
+Restart Claude Code afterwards. (The marketplace and the plugin inside it are both named `efficiency-router`.)
 
 > If the repo is private, only its owner can install it. It has to be public for others to use these commands.
 
@@ -50,11 +50,11 @@ Start any multi-stage job and the skill triggers on its own. You can also ask fo
 ## Update
 
 ```bash
-claude plugin marketplace update what-if-studio
+claude plugin marketplace update efficiency-router
 ```
 
 ```bash
-claude plugin update efficiency-router@what-if-studio
+claude plugin update efficiency-router@efficiency-router
 ```
 
 ## Repo layout
