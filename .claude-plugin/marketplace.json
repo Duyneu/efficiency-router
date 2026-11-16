@@ -4,9 +4,9 @@
   "metadata": { "description": "My What If video studio tools" },
   "plugins": [
     {
-      "name": "what-if-router",
-      "source": "./what-if-router",
-      "description": "Routes each What If video stage to Haiku/Sonnet/Opus, verifies, escalates, logs."
+      "name": "efficiency-router",
+      "source": "./efficiency-router",
+      "description": "Routes each stage of a job to Haiku/Sonnet/Opus, verifies, escalates, logs."
     }
   ]
 }

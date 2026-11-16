@@ -1,9 +1,9 @@
 ---
-name: what-if-router
-description: Use for every What If video job. Routes each stage to the cheapest model that can do it (Haiku/Sonnet/Opus + effort), verifies the result, escalates on failure, and logs the outcome. Trigger when starting, continuing or fixing a What If video, or when the user says "route", "router" or "goat".
+name: efficiency-router
+description: Use for every What If video job (and any multi-stage job worth routing). Routes each stage to the cheapest model that can do it (Haiku/Sonnet/Opus + effort), verifies the result, escalates on failure, and logs the outcome. Trigger when starting, continuing or fixing a What If video, or when the user says "route", "router" or "goat".
 ---
 
-# What If router
+# Efficiency router
 
 Never run a whole video on one model. Split it into stages, route each stage, verify, escalate.
 
@@ -35,7 +35,7 @@ Check fails -> rerun the same stage one tier up (Haiku -> Sonnet -> Opus) with t
 
 ## 5. Log
 
-Append one line per stage to `~/.claude/what-if-router-log.md`:
+Append one line per stage to `~/.claude/efficiency-router-log.md`:
 `date | video | stage | model/effort | pass/fail | escalated to`
 
 After every ~10 videos, read the log. A stage that escalates more than half the time moves up a tier by default. A stage that never escalates may move down.

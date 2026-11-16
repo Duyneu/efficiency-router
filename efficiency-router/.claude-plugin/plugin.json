@@ -1,5 +1,5 @@
 {
-  "name": "what-if-router",
+  "name": "efficiency-router",
   "version": "0.1.0",
   "description": "GOAT model router for What If videos: classify stage, run on the cheapest capable model, verify, escalate, log.",
   "author": { "name": "Nguyen Huu Duy" }
