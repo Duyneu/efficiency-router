@@ -41,7 +41,6 @@ claude plugin install efficiency-router@efficiency-router
 
 Restart Claude Code afterwards. (The marketplace and the plugin inside it are both named `efficiency-router`.)
 
-> If the repo is private, only its owner can install it. It has to be public for others to use these commands.
 
 ## Use
 
