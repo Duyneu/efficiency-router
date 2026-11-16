@@ -1,6 +1,7 @@
 {
   "name": "what-if-studio",
   "owner": { "name": "Nguyen Huu Duy" },
+  "metadata": { "description": "My What If video studio tools" },
   "plugins": [
     {
       "name": "what-if-router",
