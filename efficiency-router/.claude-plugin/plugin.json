@@ -1,6 +1,6 @@
 {
   "name": "efficiency-router",
-  "version": "0.1.0",
-  "description": "GOAT model router for What If videos: classify stage, run on the cheapest capable model, verify, escalate, log.",
+  "version": "0.2.0",
+  "description": "Universal model router: split any multi-stage job into stages, run each on the cheapest capable model (Haiku/Sonnet/Opus), verify, escalate, log.",
   "author": { "name": "Nguyen Huu Duy" }
 }

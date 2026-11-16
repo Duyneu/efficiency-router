@@ -6,7 +6,7 @@
     {
       "name": "efficiency-router",
       "source": "./efficiency-router",
-      "description": "Routes each stage of a job to Haiku/Sonnet/Opus, verifies, escalates, logs."
+      "description": "Universal model router for any multi-stage job: video, code, writing, research, data."
     }
   ]
 }
