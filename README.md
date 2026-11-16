@@ -76,13 +76,6 @@ Edit `SKILL.md`: change which stages go to which model, add rows to the verifica
 - It relies on Claude Code's subagent `model` and `effort` options. If your setup doesn't allow them, the routing falls back to your session's model.
 - Model names (Haiku 4.5, Sonnet 5.5, Opus 5.5) are hard-coded in the skill and need editing when newer models ship.
 
-## Similar projects
-
-- [nobodyohm-web/claude-code-model-router](https://github.com/nobodyohm-web/claude-code-model-router): quality-first model and effort router for Claude Code.
-- [nedjamez/claude-code-model-router](https://github.com/nedjamez/claude-code-model-router): a hook that picks a default model for subagent calls.
-
-This plugin adds verify-then-escalate with a per-stage check table and a log.
-
 ## License
 
-None yet. Add a `LICENSE` file before sharing widely.
+MIT. See [LICENSE](LICENSE).
