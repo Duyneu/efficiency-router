@@ -22,7 +22,7 @@ For every stage of a job:
    | Trivial: lookup, list, rename, quick check | Haiku 4.5 | low |
 2. **Run** the stage as a subagent on that model.
 3. **Verify** with a concrete check before moving on (code builds and tests pass, writing meets the brief, research claims have sources, numbers are spot-checked, a video renders at the right size and length, and so on). If a stage has no obvious check, one is written first.
-4. **Escalate** on a failed check: Haiku, then Sonnet, then Opus. Opus fails: it stops and reports. Never retries the same model twice.
+4. **Escalate** on a failed check: Haiku, then Sonnet, then Opus, then Fable 5.2 as the last resort. Fable fails: it stops and reports. Never retries the same model twice.
 5. **Log** one line per stage to `~/.claude/efficiency-router-log.md`. After about 10 jobs, stages that often escalate move up a tier by default, and stages that never escalate may move down.
 
 One-step tasks skip routing.
@@ -74,7 +74,7 @@ Edit `SKILL.md`: change which stages go to which model, add rows to the verifica
 
 - The check table is a starting set and has not been tuned on many real jobs yet.
 - It relies on Claude Code's subagent `model` and `effort` options. If your setup doesn't allow them, the routing falls back to your session's model.
-- Model names (Haiku 4.5, Sonnet 5.5, Opus 5.5) are hard-coded in the skill and need editing when newer models ship.
+- Model names (Haiku 4.5, Sonnet 5.5, Opus 5.5, Fable 5.2) are hard-coded in the skill and need editing when newer models ship.
 
 ## License
 
